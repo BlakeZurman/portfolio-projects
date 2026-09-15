@@ -1,0 +1,21 @@
+# Normalize text files to LF inside the repository.
+# Without this, line endings depend on each machine's core.autocrlf setting,
+# which makes identical files look changed on different computers.
+* text=auto eol=lf
+
+# Explicitly text
+*.py    text eol=lf
+*.R     text eol=lf
+*.sql   text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.ipynb text eol=lf
+*.drawio text eol=lf
+
+# Binary - never touch these
+*.pdf   binary
+*.zip   binary
+*.pptx  binary
+*.docx  binary
+*.png   binary
+*.jpg   binary
