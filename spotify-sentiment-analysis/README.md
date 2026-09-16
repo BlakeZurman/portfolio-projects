@@ -116,9 +116,11 @@ get_song_details("Yellow", "Coldplay")
 
 ## Notes on this archived copy
 
-**Code restored.** `Scripting_Final_ZURMAN.ipynb` and `WALKTHROUGH.md` were
-deleted from the original repository and have been restored here from its Git
-history, so this project again contains the code that produced the report.
+**Code restored.** `Scripting_Final_ZURMAN.ipynb` was deleted from the original
+repository and has been restored here from its Git history, so this project
+again contains the code that produced the report. (A walkthrough file was also
+deleted, but it turned out to be byte-identical to this README, so it is not
+duplicated here.)
 
 **API token removed.** The notebook originally hard-coded a Genius API token.
 It now reads the token from an environment variable instead:
